@@ -4,8 +4,9 @@ body{
 }
 h1{font-size: 60px;}
 .orange-color{color: orange;}
-section{display: flex;}
-.half-width{width: 50%;}
+.flexible-container{display: flex;}
+.half-width{width: 50%;
+;}
 .half-width image{width: 80%;
 padding-left: 5%;
 }
@@ -19,4 +20,24 @@ padding-left: 5%;
 }
 .top-banner{background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+}
+.drem-big{background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;}
+.Experien-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.Experiens-item{
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  border-left: 7px solid blue;
+}
+#Full-Stack-Developer{border-left: 7px solid tomato;}
+#Baby-Web-Developer{border-left: 7px solid blue;}
+footer p{
+  text-align: center;
 }
